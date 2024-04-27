@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ergo"
+version = "0.1.0"
+description = "Ergo enables data analysts, scientists, and engineers to transform data using software engineering and DataOps best practices."
+authors = ["Jenny Kwan <me@jennykwan.org>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "ergo", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
